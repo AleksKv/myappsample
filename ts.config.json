@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": [ "./*" ],
+            "src/*": ["./src/*"]
+        },
+        "types": ["node", "@wdio/sync","@wdio/cucumber-framework"]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
